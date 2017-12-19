@@ -9,18 +9,18 @@ function getIt(){
 $(document).ready(function(){
 
 // call functions here
-  
-  
+
+
   function frameIt(){
     $('.tasty').on('load', function(){
-      
+
     });
   }
-  
+
   function pressIt(){
 
   }
-  
+
   function submitIt(){
 
   }
