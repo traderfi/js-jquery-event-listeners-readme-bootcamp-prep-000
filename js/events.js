@@ -1,5 +1,9 @@
 //define functions here
-
+function submitIt(){
+  $("form").on("submit", function(){
+      alert("Your form is going to be submitted now.");
+  });
+}
 function getIt(){
   $('p').on('click', function(){
     alert("Hey!");
@@ -20,14 +24,10 @@ function pressIt(){
   });
 }
 
-function submitIt(){
-  $("form").on("submit", function(){
-      alert("Your form is going to be submitted now.");
-  });
-}
+
 
 $(document).ready(function(){
-
+  
 // call functions here
 
 
