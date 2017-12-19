@@ -19,7 +19,7 @@ function frameIt(){
 
 function pressIt(){
   $('form #typing').on('keydown', function(e){
-      if(e.which == 'G'){
+      if(e.which == 71){
           alert('asds');
       }
   });
