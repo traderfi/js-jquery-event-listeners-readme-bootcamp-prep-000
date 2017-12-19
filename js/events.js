@@ -18,7 +18,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $().on('keydown', function(e){
+  $('form #typing').on('keydown', function(e){
       if(e.which == 'G'){
           alert('asds');
       }
