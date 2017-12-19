@@ -13,8 +13,10 @@ function frameIt(){
 }
 
 function pressIt(){
-  $().on('keydown', function(){
-    
+  $().on('keydown', function(e){
+      if(e.which == 'G'){
+          alert('asds');
+      }
   });
 }
 
