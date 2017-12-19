@@ -12,6 +12,16 @@ function frameIt(){
   });
 }
 
+function pressIt(){
+
+}
+
+function submitIt(){
+  $(form).on('submit', function(){
+    
+  });
+}
+
 $(document).ready(function(){
 
 // call functions here
@@ -19,12 +29,6 @@ $(document).ready(function(){
 
 
 
-  function pressIt(){
-
-  }
-
-  function submitIt(){
-
-  }
+  
 
 });
