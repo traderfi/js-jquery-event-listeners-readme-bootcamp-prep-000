@@ -4,6 +4,7 @@ function submitIt(){
       alert("Your form is going to be submitted now.");
   });
 }
+
 function getIt(){
   $('p').on('click', function(){
     alert("Hey!");
@@ -27,7 +28,7 @@ function pressIt(){
 
 
 $(document).ready(function(){
-  
+
 // call functions here
 
 
